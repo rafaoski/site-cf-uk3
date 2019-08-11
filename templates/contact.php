@@ -53,9 +53,9 @@ if( !isset($eMail->text_1) || $eMail->text_1 == false ) {
 						],
 						'icons' =>
 						[
-							ukIcon('phone', ['ratio' => 1.3]),
-							ukIcon('mail', ['ratio' => 1.3]),
-							ukIcon('location', ['ratio' => 1.3]),
+							ukIcon('phone', ['ratio' => '1.7']),
+							ukIcon('mail', ['ratio' => '1.7']),
+							ukIcon('location', ['ratio' => '1.7']),
 						]
 					]);
 				?>
