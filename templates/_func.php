@@ -652,7 +652,7 @@ function privacyPolicy($privacyPage, $options = array())
 	// Default Options
 	$defaults = array(
 		'read_more' => setting('read-more'),
-		'icon' => ukIcon('info', ['ratio' => 1.5]),
+		'icon' => ukIcon('info', ['ratio' => '1.5']),
 	);
 	// Merge Options
 	$options = _mergeOptions($defaults, $options);
