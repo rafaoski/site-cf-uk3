@@ -12,7 +12,7 @@ if (page()->hasChildren): ?>
 				<h3 class='text-md'><?= $item->title ?></h3>
 				<p class='text-sm'><?= $item->intro ?></p>
 				<a class='uk-button uk-button-primary uk-margin-small' href="<?= $item->url ?>">
-					<?=  setting('read-more') . ' ' . ukIcon('chevrons-right') ?>
+					<?=  setting('read-more') . ' ' . ukIcon('arrow-right') ?>
 				</a>
 			</div>
 		</div>
