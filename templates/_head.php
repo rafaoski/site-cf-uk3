@@ -62,9 +62,9 @@ if( setting('gw-code') ) echo gwCode( setting('gw-code')->text_1 );
 							setting('company-address'),
 						],
 						'icons' => [
-							ukIcon('phone', ['ratio' => 1.3]),
-							ukIcon('mail', ['ratio' => 1.3]),
-							ukIcon('location', ['ratio' => 1.3]),
+							ukIcon('phone', ['ratio' => '1.3']),
+							ukIcon('mail', ['ratio' => '1.3']),
+							ukIcon('location', ['ratio' => '1.3']),
 						],
 						'mail_color' => 'color-warning',
 						'list_inline' => true
