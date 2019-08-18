@@ -55,6 +55,7 @@ setting([
 	'to-any' => pages('options')->site_options->get("name=share-buttons"),
 	'rss-title' => __('Recent Posts'),
 	'rss-description' => __('The most recent pages updated on my site'),
+	'update-profile' => __('Update your nickname on your profile'),
 // Basic Translation
 	'lang-code' => __('en'),
 	'edit' => __('Edit'),

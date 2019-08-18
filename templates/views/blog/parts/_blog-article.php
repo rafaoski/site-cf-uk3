@@ -38,7 +38,7 @@ if ($item->id == page('id')) {
 		<?= $title ?>
 		<p>
 			<?= ukIcon('calendar') . ' ' . $item->date ?>
-			<?= ukIcon('user') . ' ' . $nick_name ?>
+			<?= ukIcon('user') . ' ' . $nick_name ?: setting('update-profile') ?>
 			<?= countComments($item, ['icon' => ukIcon('comments') ]) ?>
 		</p>
 	</header>
