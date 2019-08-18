@@ -26,11 +26,12 @@ setting([
 	'logo_alt' => pages('options')->logo ? pages('options')->logo->description : '',
 	'favicon' => pages('options')->favicon ? pages('options')->favicon->url : '',
 	'site-name' => pages('options')->site_name,
+	'site-description' => pages('options')->site_description,
 	'background-image' => pages('options')->site_options->get("name=background-image"),
 	'gw-code' => pages('options')->site_options->get("name=gw-code"),
 	'ga-code' => pages('options')->site_options->get("name=ga-code"),
 // Contact Page
-  'e-mail' => pages('options')->site_options->get("name=e-mail"),
+  	'e-mail' => pages('options')->site_options->get("name=e-mail"),
 	'phone' => pages('options')->site_options->get("name=phone"),
 	'save-contact' => pages('options')->site_options->get("name=save-contact"),
 	'advanced-form' => pages('options')->site_options->get("name=advanced-form"),

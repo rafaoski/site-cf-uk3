@@ -23,50 +23,49 @@ https://codyhouse.co/license
  ``` pages('options')->site_name ```
   ``` pages->get('options')->site_name ```
 
-  #### If you want to use Gulp stack you must first ensure that [Node.js](https://nodejs.org/en/download/) and [NPM](https://www.npmjs.com/get-npm) are installed on your machine.
-  Basic example to Debian and Ubuntu based Linux distributions:
-  #### Node.js
-  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-  sudo apt-get install -y nodejs
+#### If you want to use Gulp stack you must first ensure that [Node.js](https://nodejs.org/en/download/) and [NPM](https://www.npmjs.com/get-npm) are installed on your machine.
 
-  See more installation options [LINK](https://nodejs.org/en/download/package-manager/)
-  #### npm is installed with Node.js just check in linux terminal like below:
-  <code>node -v</code>
-  <code>npm -v</code>
+Basic example to Debian and Ubuntu based Linux distributions:
 
-  #### Set BrowserSync inside <code>gulpfile.js</code> as below:
-  only change your <code>var siteUrl = 'http://cf.test/';</code> to your ProcessWire development url like:
-  <code>siteUrl = 'http://localhost/processwire-site.test/';</code>
+#### Node.js
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
-  Next install npm packages in your templates folder with command <code><b>npm install</b></code>
+See more installation options [LINK](https://nodejs.org/en/download/package-manager/)
+#### npm is installed with Node.js just check in linux terminal like below:
+<code>node -v</code>
+<code>npm -v</code>
 
-  Now, boot up the dev server <code><b>gulp watch</b></code>, and you're all set go!
+#### Set BrowserSync inside <code>gulpfile.js</code> as below:
+only change your <code>var siteUrl = 'http://cf.test/';</code> <br> to your ProcessWire development url like:<br>
+<code>siteUrl = 'http://localhost/processwire-site.test/';</code>
 
-  #### Simple Usage ( Basic Command )
-  <ul>
-  <li><b>Install</b> <code>npm install</code></li>
-  <li><b>Watch</b> <code>gulp watch</code></li>
-  </ul>
+Next install npm packages in your templates folder with command <code><b>npm install</b></code>
 
-  You can now add components from [CodyHouse Components](https://codyhouse.co/ds/components).<br>
-  Learn more about how to add components https://www.youtube.com/watch?v=8NLRhaSnQS0
+Now, boot up the dev server <code><b>gulp watch</b></code>, and you're all set go!
 
-  #### Folder With all SCSS files is inside assets/css
+#### Simple Usage ( Basic Command )
+<ul>
+<li><b>Install</b> <code>npm install</code></li>
+<li><b>Watch</b> <code>gulp watch</code></li>
+</ul>
 
-  #### All compiled styles is inside  assets/css ( style.css, style-fallback.css )
+You can now add components from [CodyHouse Components](https://codyhouse.co/ds/components).<br>
+Learn more about how to add components https://www.youtube.com/watch?v=8NLRhaSnQS0
 
-#### Additionally, you can use the icon font that are included:
-[Feather Icons](https://feathericons.com/)
+#### Folder With all SCSS files is inside assets/css
+
+#### All compiled styles is inside  assets/css ( style.css, style-fallback.css )
 
 #### All images ( svg ) on the pages come from:
 [Icofont](https://icofont.com/)
 [Simpleicons ( ProcessWire Logo ) ](https://simpleicons.org/?q=processwire)
 
 #### References:
-[CodyHouse Framework](https://codyhouse.co/ds/docs/framework)
-[Uikit 3](https://getuikit.com/)
-[AddToAny - Universal Sharing Buttons](https://www.addtoany.com/)
-[Flatpickr](https://flatpickr.js.org/)
+[CodyHouse Framework](https://codyhouse.co/ds/docs/framework)<br>
+[Uikit 3](https://getuikit.com/)<br>
+[AddToAny - Universal Sharing Buttons](https://www.addtoany.com/)<br>
+[Flatpickr](https://flatpickr.js.org/)<br>
 
 ####  License
 2019 byHumans under the [MIT license](LICENSE).

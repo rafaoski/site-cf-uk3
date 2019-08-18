@@ -726,7 +726,7 @@ function socialProfiles($items)
 		$out .= ukIcon($item->name,
 		[
 			'class' => 'transition-bounce-s margin-xxxs color-warning',
-			'ratio' => '1.7'
+			'ratio' => '2.5'
 		]) . "</a>";
 	}
 

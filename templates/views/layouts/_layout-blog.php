@@ -29,7 +29,11 @@ echo $noFound;
 
 		<!-- SIDEBAR -->
 		<div class='content__sidebar col-4@md'>
+
 			<?= $sidebar ?>
+
+			<?= files()->render('views/blog/parts/_blog-sidebar.php') ?>
+
 		</div>
 
 	</div>

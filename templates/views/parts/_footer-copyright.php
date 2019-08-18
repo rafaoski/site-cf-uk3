@@ -1,6 +1,6 @@
 <?php namespace ProcessWire; ?>
 
-&copy; 	<a aria-label='home' href='<?= setting('home')->url ?>' class='color-warning'>
+&copy; 	<a href='<?= setting('home')->url ?>' class='color-warning text-lg' aria-label='home'>
 			<?= pages('options')->site_name ?>
 		</a>
 <?= date('Y') ?> <?= setting('all-right') ?>
