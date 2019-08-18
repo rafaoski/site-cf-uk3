@@ -37,7 +37,7 @@ See more installation options [LINK](https://nodejs.org/en/download/package-mana
 <code>npm -v</code>
 
 #### Set BrowserSync inside <code>gulpfile.js</code> as below:
-only change your <code>var siteUrl = 'http://cf.test/';</code> <br> to your ProcessWire development url like:<br>
+only change your <code>var siteUrl = 'http://cf-uk.test/';</code> <br> to your ProcessWire development url like:<br>
 <code>siteUrl = 'http://localhost/processwire-site.test/';</code>
 
 Next install npm packages in your templates folder with command <code><b>npm install</b></code>
