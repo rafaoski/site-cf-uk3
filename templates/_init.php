@@ -99,10 +99,10 @@ setting([
 	'contact-basicsucces' => __('Thanks %s, we just received your message ... We will try to reply to your e-mail ( %s ) as soon as possible.'),
 	'contact-advsubject' => __("Subject"),
 	'contact-advsucces' => __('Thanks %s, we just received your message ... We will try to reply to your e-mail ( %s ) or call you back ( %s ) as soon as possible.'),
-	'cotact-advoptionsfirst' => __("New Website"),
-	'cotact-advoptionsnext' => __("Something else"),
-	'cotact-advwhatcan' => __("What can we do for you"),
-	'cotact-advexpdate' => __("Expected start and end date"),
+	'contact-advoptionsfirst' => __("New Website"),
+	'contact-advoptionsnext' => __("Something else"),
+	'contact-advwhatcan' => __("What can we do for you"),
+	'contact-advexpdate' => __("Expected start and end date"),
 ]);
 
 include_once('./_func.php');
