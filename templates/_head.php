@@ -80,7 +80,7 @@ if( setting('gw-code') ) echo gwCode( setting('gw-code')->text_1 );
 
 		<?php if(page()->parent->id > setting('home')->id): ?>
 		<!-- BREADCRUMB -->
-		<div id='breadcrumb' class='breadcrumb uk-flex uk-flex-right uk-padding-small uk-visible@m'>
+		<div id='breadcrumb' class='main-header__breadcrumb uk-flex uk-flex-right uk-padding-small uk-visible@m'>
 			<?= ukBreadcrumb(page(),['appendCurrent' => true]) ?>
 		</div>
 		<?php endif; ?>
