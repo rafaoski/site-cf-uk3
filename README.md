@@ -58,7 +58,7 @@ Learn more about how to add components https://www.youtube.com/watch?v=8NLRhaSnQ
 #### All compiled styles is inside  assets/css ( style.css, style-fallback.css )
 
 #### All images ( svg ) on the pages come from:
-[Icofont](https://icofont.com/)
+[Icofont](https://icofont.com/)<br>
 [Simpleicons ( ProcessWire Logo ) ](https://simpleicons.org/?q=processwire)
 
 #### References:
